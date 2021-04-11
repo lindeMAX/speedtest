@@ -1,0 +1,12 @@
+[Unit]
+Description=Internet speetest
+After=network.target
+Wants=speedtest.timer
+
+[Service]
+Type=simple
+User=root
+ExecStart=path/speedtest.sh path
+
+[Install]
+WantedBy=multi-user.target

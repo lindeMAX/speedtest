@@ -1,0 +1,9 @@
+[Unit]
+Description=Run every 30 minutes
+
+[Timer]
+OnCalendar=*-*-* *:0/30:00
+Unit=speedtest.service
+
+[Install]
+WantedBy=multi-user.target
