@@ -26,5 +26,5 @@ If you want to move this repo to a different location on your lacal file system,
 
 The results can be visualized with the example jupyter-notebook in the evaluation directory.
 
-![timeline](sample_results/timeline_down_up_dev.pdf)
-![histogram](sample_results/histogram_down_up_dev.pdf)
+![timeline](sample_results/timeline_down_up_dev.png)
+![histogram](sample_results/histogram_down_up_dev.png)
