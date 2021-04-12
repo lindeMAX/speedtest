@@ -1,5 +1,6 @@
 *.csv
 *.txt
 *.pdf
+.ipynb_checkpoints
 .stfolder
 .stversions
