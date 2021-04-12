@@ -1,6 +1,12 @@
 # speedtest
 
-A long term internet speed test.
+A long term internet speed test using a python script from Matt Martz (https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py) timed by a systemd timer.
+
+## Dependencies 
+
+- python
+- jupyter (jupyter-notebok or jupyter-lab)
+- nmap
 
 ## Install
 
@@ -14,6 +20,8 @@ If you want to move this repo to a different location on your lacal file system,
 
 ## Uninstall
 
+*This section will be added soon*
+
 ## Results 
 
-The results can be visualized using the jupyter-notebook in the evaluation directory.
+The results can be visualized with the example jupyter-notebook in the evaluation directory.
