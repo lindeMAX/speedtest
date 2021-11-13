@@ -4,14 +4,15 @@ A long term internet speed test using a python script from Matt Martz (https://r
 
 ## Dependencies 
 
-- python
-- jupyter (jupyter-notebok or jupyter-lab)
+- python (jupyter, numpy, matplotlib)
 - nmap
 
 ## Install
 
 1. Clone this repo
 2. Run the _**install.sh**_ script
+
+**Notice:** You will need root rights for this.
 
 The _**install.sh**_ script installs a systemd timer and service executing _**speedtest.sh**_ every 30 minutes.<br>
 
